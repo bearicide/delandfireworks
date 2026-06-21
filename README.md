@@ -4,13 +4,14 @@ Static GitHub Pages site for `/delandfireworks`.
 
 Theme update:
 
+- Newspaper-style front page
 - Deland Rd Fireworks 25th Anniversary
 - America’s 250th Birthday / America 250
 - More patriotic, explanatory event wording for public sharing
 
 ## Pages
 
-- `index.html` - clean event info / landing page
+- `index.html` - newspaper-style event info / landing page
 - `launch.html` - separate interactive fireworks theater with mini-player
 
 ## Live URLs
@@ -32,6 +33,20 @@ This build frames the event as both a local milestone and a national celebration
 - Fourth of July community pride
 - family, friends, neighbors, food, bracelets, and larger finales
 
+## Newspaper styling
+
+The landing page now uses a newspaper-inspired layout:
+
+- masthead: `The Deland Rd Gazette`
+- special edition line
+- front-page headline
+- two-column article copy
+- countdown sidebar
+- event-detail cards
+- classifieds / public notice section
+- launch-page advertisement block
+- newspaper-style share card
+
 ## What this version does
 
 The fireworks were moved out of the site background and into a dedicated launch container/page to reduce lag on phones.
@@ -42,7 +57,7 @@ Features:
 - more explanatory event copy
 - 25th Anniversary hero and milestone card
 - America 250 / 250th Birthday hero and milestone card
-- clean event landing page
+- clean newspaper-style event landing page
 - countdown timer
 - Old Dad’s BBQ card
 - kid-friendly food card
