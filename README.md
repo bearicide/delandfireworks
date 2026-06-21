@@ -9,11 +9,13 @@ Theme update:
 - America’s 250th Birthday / America 250
 - More patriotic, explanatory event wording for public sharing
 - Fresh MATTBEAR PNG sidebar ad linking to `https://bearicide.github.io`
+- Announcement player tries to autoplay on launch page load
+- Fireworks SFX are wired from the `sfx/` folder
 
 ## Pages
 
 - `index.html` - newspaper-style event info / landing page
-- `launch.html` - separate interactive fireworks theater with mini-player
+- `launch.html` - separate interactive fireworks theater with mini-player, announcement audio, and fireworks SFX
 
 ## Live URLs
 
@@ -36,7 +38,7 @@ This build frames the event as both a local milestone and a national celebration
 
 ## Newspaper styling
 
-The landing page now uses a newspaper-inspired layout:
+The landing page uses a newspaper-inspired layout:
 
 - masthead: `The Deland Rd Gazette`
 - special edition line
@@ -46,75 +48,73 @@ The landing page now uses a newspaper-inspired layout:
 - event-detail cards
 - classifieds / public notice section
 - launch-page advertisement block
-- clickable MATTBEAR PNG sidebar ad
+- clickable MATTBEAR sidebar ad
+- footer link rail back to MATTBEAR and event pages
 - newspaper-style share card
-
-## MATTBEAR sidebar ad
-
-Generated PNG asset:
-
-`assets/mattbear-ad.png`
-
-Details:
-
-- 800 × 533 px
-- optimized PNG
-- right column / countdown sidebar
-- below the launch-page ad
-- clickable to `https://bearicide.github.io`
-
-Removed old SVG ad:
-
-`assets/mattbear-gazette.svg`
-
-## What this version does
-
-The fireworks were moved out of the site background and into a dedicated launch container/page to reduce lag on phones.
-
-Features:
-
-- more patriotic hero copy
-- more explanatory event copy
-- 25th Anniversary hero and milestone card
-- America 250 / 250th Birthday hero and milestone card
-- clean newspaper-style event landing page
-- countdown timer
-- Old Dad’s BBQ card
-- kid-friendly food card
-- handmade bracelets card
-- Deland Rd North + South finale card
-- contained fireworks canvas
-- quality selector: Low / Medium / High-ish
-- 250 Finale button
-- launch counter
-- performance readout
-- mini-player with Play Announcement button
-- volume control
-- progress bar
-- simple visualizer
 
 ## Audio
 
-The launch page expects the announcement file at:
+Announcement audio path:
 
 `audio/announcement.mp3`
 
-Upload the MP3 there and the player will work.
+Launch page behavior:
 
-A note file is already included at:
+- the announcement tries to play automatically when the launch page opens
+- the same visible player stays in the same place
+- if the browser blocks autoplay, the Play button pulses
+- first tap/click/keypress can unlock the announcement
+- the player still supports pause, progress, seeking, volume, and visualizer bars
 
-`audio/README.md`
+Browser note: autoplay with sound may be blocked by Chrome, Safari, Android, or other joyless committees unless the visitor has already interacted with the page.
 
-## Files
+## Fireworks SFX
 
-- `index.html`
-- `launch.html`
-- `favicon.svg`
-- `share-card.svg`
-- `facebook-post.txt`
-- `.nojekyll`
-- `audio/README.md`
-- `assets/mattbear-ad.png`
+Firework sound folder:
+
+`sfx/`
+
+Expected files:
+
+- `sfx/fw-launch-short.wav`
+- `sfx/fw-launch-long.wav`
+- `sfx/fw-pop-small.wav`
+- `sfx/fw-boom-medium.wav`
+- `sfx/fw-boom-big.wav`
+- `sfx/fw-distant-boom.wav`
+- `sfx/fw-crackle.wav`
+- `sfx/fw-sparkle.wav`
+- `sfx/fw-whistle-pop.wav`
+- `sfx/fw-finale-barrage.wav`
+
+The launch page uses these SFX for rocket launches, bursts, sparkle mode, willow mode, crackles, and the finale.
+
+## MATTBEAR sidebar ad
+
+Current asset path:
+
+`assets/mattbear-ad.png`
+
+Current hookup improvements:
+
+- scales to fit the sidebar container
+- explicit `width` and `height` attributes to reduce layout shift
+- `loading="lazy"` and `decoding="async"`
+- linked to `https://bearicide.github.io`
+- wrapped in semantic `figure` / `figcaption`
+
+## Maintenance notes
+
+Recent cleanup / bughunt:
+
+- confirmed top navigation links
+- confirmed sidebar launch link
+- confirmed Facebook post link
+- added footer links back to `https://bearicide.github.io`
+- ensured the MATTBEAR ad scales correctly on mobile and desktop
+- hooked fireworks SFX to the launch theater
+- added announcement autoplay attempt with graceful fallback
+- kept countdown timer and sharing helpers intact
 
 ## GitHub Pages
 
