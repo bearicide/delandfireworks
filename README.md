@@ -6,6 +6,7 @@ Theme update:
 
 - Deland Rd Fireworks 25th Anniversary
 - America’s 250th Birthday / America 250
+- More patriotic, explanatory event wording for public sharing
 
 ## Pages
 
@@ -22,12 +23,23 @@ Launch page:
 
 `https://bearicide.github.io/delandfireworks/launch.html`
 
+## Public message
+
+This build frames the event as both a local milestone and a national celebration:
+
+- 25 years of the Deland Rd Fireworks tradition
+- America’s 250th Birthday
+- Fourth of July community pride
+- family, friends, neighbors, food, bracelets, and larger finales
+
 ## What this version does
 
 The fireworks were moved out of the site background and into a dedicated launch container/page to reduce lag on phones.
 
 Features:
 
+- more patriotic hero copy
+- more explanatory event copy
 - 25th Anniversary hero and milestone card
 - America 250 / 250th Birthday hero and milestone card
 - clean event landing page
