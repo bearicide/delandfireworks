@@ -8,7 +8,7 @@ Theme update:
 - Deland Rd Fireworks 25th Anniversary
 - America’s 250th Birthday / America 250
 - More patriotic, explanatory event wording for public sharing
-- MATTBEAR newspaper-style sidebar image linking to `https://bearicide.github.io`
+- Fresh MATTBEAR PNG sidebar ad linking to `https://bearicide.github.io`
 
 ## Pages
 
@@ -46,20 +46,26 @@ The landing page now uses a newspaper-inspired layout:
 - event-detail cards
 - classifieds / public notice section
 - launch-page advertisement block
-- clickable MATTBEAR sidebar ad image
+- clickable MATTBEAR PNG sidebar ad
 - newspaper-style share card
 
 ## MATTBEAR sidebar ad
 
-Generated asset:
+Generated PNG asset:
 
-`assets/mattbear-gazette.svg`
+`assets/mattbear-ad.png`
 
-Placement:
+Details:
 
+- 800 × 533 px
+- optimized PNG
 - right column / countdown sidebar
 - below the launch-page ad
 - clickable to `https://bearicide.github.io`
+
+Removed old SVG ad:
+
+`assets/mattbear-gazette.svg`
 
 ## What this version does
 
@@ -108,7 +114,7 @@ A note file is already included at:
 - `facebook-post.txt`
 - `.nojekyll`
 - `audio/README.md`
-- `assets/mattbear-gazette.svg`
+- `assets/mattbear-ad.png`
 
 ## GitHub Pages
 
