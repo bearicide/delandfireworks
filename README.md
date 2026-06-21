@@ -2,6 +2,11 @@
 
 Static GitHub Pages site for `/delandfireworks`.
 
+Theme update:
+
+- Deland Rd Fireworks 25th Anniversary
+- America’s 250th Birthday / America 250
+
 ## Pages
 
 - `index.html` - clean event info / landing page
@@ -23,6 +28,8 @@ The fireworks were moved out of the site background and into a dedicated launch 
 
 Features:
 
+- 25th Anniversary hero and milestone card
+- America 250 / 250th Birthday hero and milestone card
 - clean event landing page
 - countdown timer
 - Old Dad’s BBQ card
@@ -31,7 +38,7 @@ Features:
 - Deland Rd North + South finale card
 - contained fireworks canvas
 - quality selector: Low / Medium / High-ish
-- finale button
+- 250 Finale button
 - launch counter
 - performance readout
 - mini-player with Play Announcement button
