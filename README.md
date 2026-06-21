@@ -1,47 +1,68 @@
-# Deland Rd Fireworks Performance Pass
+# Deland Rd Fireworks
 
-Repo-ready static site for `/delandfireworks`.
+Static GitHub Pages site for `/delandfireworks`.
 
 ## Pages
 
 - `index.html` - clean event info / landing page
 - `launch.html` - separate interactive fireworks theater with mini-player
 
-## Why this version exists
+## Live URLs
 
-V3 ran fireworks across the entire background. Fun, yes. Also a small battery crime.
-
-This version moves fireworks into a dedicated page/container:
-
-- no full-site canvas background
-- no bloom canvas
-- fewer particles
-- quality selector: Low / Medium / High-ish
-- particle cap
-- lower device-pixel-ratio cap
-- contained canvas
-- mini-player stays on the launch page
-
-## Files
-
-- `index.html`
-- `launch.html`
-- `audio/announcement.mp3`
-- `favicon.svg`
-- `share-card.svg`
-- `facebook-post.txt`
-- `.nojekyll`
-
-## Deploy
-
-Upload the contents of this folder to:
-
-`/delandfireworks`
-
-Expected URL:
+Main page:
 
 `https://bearicide.github.io/delandfireworks/`
 
 Launch page:
 
 `https://bearicide.github.io/delandfireworks/launch.html`
+
+## What this version does
+
+The fireworks were moved out of the site background and into a dedicated launch container/page to reduce lag on phones.
+
+Features:
+
+- clean event landing page
+- countdown timer
+- Old Dad’s BBQ card
+- kid-friendly food card
+- handmade bracelets card
+- Deland Rd North + South finale card
+- contained fireworks canvas
+- quality selector: Low / Medium / High-ish
+- finale button
+- launch counter
+- performance readout
+- mini-player with Play Announcement button
+- volume control
+- progress bar
+- simple visualizer
+
+## Audio
+
+The launch page expects the announcement file at:
+
+`audio/announcement.mp3`
+
+Upload the MP3 there and the player will work.
+
+A note file is already included at:
+
+`audio/README.md`
+
+## Files
+
+- `index.html`
+- `launch.html`
+- `favicon.svg`
+- `share-card.svg`
+- `facebook-post.txt`
+- `.nojekyll`
+- `audio/README.md`
+
+## GitHub Pages
+
+Use:
+
+**Settings → Pages → Deploy from branch → main / root**
