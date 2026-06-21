@@ -1,0 +1,23 @@
+🧨 DELAND RD FIREWORKS 🧨
+
+The interactive page got a cleaner update.
+
+Now the main page has the event info, and the fireworks live on a separate launch page so it runs smoother on phones.
+
+You can:
+🎆 open the Fireworks Launch Page
+🔊 hit Play Announcement!
+🔉 control the volume
+🇺🇸 fire off a finale
+🍖 check Old Dad’s BBQ info
+✨ see bracelet and event details
+
+This year includes:
+
+🇺🇸 Bigger displays at Deland Rd South + Deland Rd North
+🔥 Larger grand finales
+🍖 Old Dad’s BBQ starting at 3:00 PM
+🧃 Hot dogs, chips, juice boxes, and slushies
+✨ Handmade bracelets available during the day
+
+https://bearicide.github.io/delandfireworks/
